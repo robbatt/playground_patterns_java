@@ -1,5 +1,6 @@
 *.class
 .project
+bin
 
 # Package Files #
 *.jar
