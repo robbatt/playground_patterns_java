@@ -2,6 +2,11 @@ package me.brendler.playground.patterns.java.creational.factoryMethod;
 
 public class Application_FactoryMethod {
 	
+
+	/**
+	 * @see http://en.wikipedia.org/wiki/Factory_method_pattern
+	 */
+	
 	// this pattern encapsulates an inner class 
 	// that can me made accessible via a factory method
 	// allows default impl e.g. for a factory product

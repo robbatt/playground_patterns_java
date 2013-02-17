@@ -60,7 +60,7 @@ public class TestAbstractFactoryAll {
 		
 		Button winBut = winFac.createButton();
 		assertTrue(winBut instanceof WinButton);
-		System.out.println("AbstractFactory: WinFactory.createButton() created WinButton, with output:");
+		System.out.println("\nAbstractFactory: WinFactory.createButton() created WinButton, with output:");
 		winBut.paint();
 		
 		// GUIFactory create a OSXButton

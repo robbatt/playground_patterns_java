@@ -21,6 +21,6 @@ public class TestFactoryMethodAll {
 		assertNotNull(prod);		
 		assertTrue(prod instanceof IProduct);
 
-		System.out.println("FactoryMethod: Factory created: " + prod.getDescription());
+		System.out.println("\nFactoryMethod: Factory created: " + prod.getDescription());
 	}
 }

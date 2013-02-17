@@ -12,7 +12,7 @@ public class TestBuilderAll {
 	@Test
 	public void testBuildProducts() {
 		// create Director
-		System.out.println("Builder: creating Director ...");
+		System.out.println("\nBuilder: creating Director ...");
 		Director director = new Director();
 		assertNotNull(director);		
 

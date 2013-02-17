@@ -6,6 +6,10 @@ public class Application_Builder {
 
 	public static void main(String[] args) {
 		
+		/**
+		 * @see http://en.wikipedia.org/wiki/Builder_pattern
+		 */
+		
 		// 1. create manually
 		// - details about product internals in main application, 
 		//   unnecessary or even unwanted in terms of security

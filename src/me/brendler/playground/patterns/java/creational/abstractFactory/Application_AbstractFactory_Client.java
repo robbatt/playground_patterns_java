@@ -15,6 +15,11 @@ public class Application_AbstractFactory_Client {
 
 	public static void main(String[] args) {
 		
+
+    	/**
+    	 * @see http://en.wikipedia.org/wiki/Abstract_factory_pattern
+    	 */
+		
 		// 1. create everything manually
 		// - manually create products, input creation params here
 		// - call some description method that a product might have
@@ -45,7 +50,7 @@ public class Application_AbstractFactory_Client {
 		prod4A = fac4.createProductA();
 		prod4B = fac4.createProductB();
 
-		System.out.println("factory created "+ prod3A.getDescription_3A());
+		System.out.println("\nfactory created "+ prod3A.getDescription_3A());
 		System.out.println("factory created "+ prod3B.getDescription_3B());
 		System.out.println("factory created "+ prod4A.getDescription_4A());
 		System.out.println("factory created "+ prod4B.getDescription_4B());
@@ -70,7 +75,7 @@ public class Application_AbstractFactory_Client {
 			IProductA prodA = fac.createProductA();
 			IProductB prodB = fac.createProductB();
 					
-			System.out.println("abstractFactory created " + prodA.getDescription());
+			System.out.println("\nabstractFactory created " + prodA.getDescription());
 			System.out.println("abstractFactory created " + prodB.getDescription());
 		}
 		
